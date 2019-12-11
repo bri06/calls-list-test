@@ -1,0 +1,72 @@
+{
+  "calls": [
+    {
+      "name": "Convocatoria 1",
+      "id": 1,
+      "descriptions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque, risus et dapibus ullamcorper, tellus dolor laoreet velit, eu laoreet tellus tortor non lacus."
+    },
+    {
+      "name": "Convocatoria 2",
+      "id": 2,
+      "descriptions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque, risus et dapibus ullamcorper, tellus dolor laoreet velit, eu laoreet tellus tortor non lacus."
+    }
+  ],
+  "comments": [
+    {
+      "callId": 1,
+      "name": "Merito 1",
+      "score": 2,
+      "userScore": null,
+      "totalScore": null
+    },
+    {
+      "callId": 2,
+      "name": "Merito 2",
+      "score": 4,
+      "userScore": null,
+      "totalScore": null
+    },
+    {
+      "callId": 1,
+      "name": "Merito 3",
+      "score": 3,
+      "userScore": null,
+      "totalScore": null
+    },
+    {
+      "callId": 2,
+      "name": "Merito 4",
+      "score": 2,
+      "userScore": null,
+      "totalScore": null
+    },
+    {
+      "callId": 1,
+      "name": "Merito 1",
+      "score": 1,
+      "userScore": null,
+      "totalScore": null
+    },
+    {
+      "callId": 1,
+      "name": "Merito 2",
+      "score": 2,
+      "userScore": null,
+      "totalScore": null
+    },
+    {
+      "callId": 2,
+      "name": "Merito 3",
+      "score": 2,
+      "userScore": null,
+      "totalScore": null
+    },
+    {
+      "callId": 2,
+      "name": "Merito 4",
+      "score": 4,
+      "userScore": null,
+      "totalScore": null
+    }
+  ]
+}
