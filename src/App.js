@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
 
-import List from './components/List/List';
+import { Header } from './styles/commons';
 
-import styles from './App.module.css';
+import List from './components/List/List';
 
 
 function App() {
   return (
     <Fragment>
-      <h1 className={styles.title_app}>Listado de convocatorias</h1>
+      <Header>Listado de convocatorias</Header>
       <div className="App">
         <List />
       </div>

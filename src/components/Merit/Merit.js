@@ -1,20 +1,21 @@
 import React from 'react';
-import styles from './Merit.module.css';
+import { MeritCard, MeritHeader, Score } from './styles';
+
 
 const Merit = ({ name, score }) => {
   return (
-    <div className={styles.merit}>
-      <div className={styles.title}>
+    <MeritCard>
+      <MeritHeader>
         <h1>{name}</h1>
         <span>{score} puntos</span>
-      </div>
-      <div className={styles.score}>
+      </MeritHeader>
+      <Score>
         <p>TotalScore</p>
-        <div className={styles.userscore}>
+        <div>
           <span>2</span> * <input type="text" placeholder="User score " />
         </div>
-      </div>
-    </div>
+      </Score>
+    </MeritCard>
   );
 }
 
