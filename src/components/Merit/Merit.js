@@ -1,6 +1,6 @@
 import React from 'react';
-import { MeritCard, MeritHeader, Score } from './styles';
-
+import { MeritCard, MeritHeader, Score, Calculator, ScoreTitle } from './styles';
+import { Input } from '../../styles/commons';
 
 const Merit = ({ name, score }) => {
   return (
@@ -10,11 +10,11 @@ const Merit = ({ name, score }) => {
         <span>{score} puntos</span>
       </MeritHeader>
       <Score>
-        <p>TotalScore</p>
+        <ScoreTitle>TotalScore</ScoreTitle>
         <div><span> = </span></div>
-        <div>
-          <span>2</span> * <input type="text" placeholder="User score " />
-        </div>
+        <Calculator>
+          <span>2</span> <span>*</span> <Input type="text" placeholder="User score " />
+        </Calculator>
       </Score>
     </MeritCard>
   );

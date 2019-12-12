@@ -1,7 +1,7 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import React, { useState, useEffect } from 'react';
 import Call from '../Call/Call';
 import { fetchCalls, fetchMerits } from '../../api';
-
+import  { CallList } from './styles';
 
 const List = () => {
 
@@ -14,13 +14,13 @@ const List = () => {
   }, []);
 
   return(
-    <Fragment>
+    <CallList>
       {
         calls && calls.map(({ id, name, descriptions }) => (
           <Call key={id} id={id} title={name} description={descriptions} merits={merits}/>
         ))
       }
-    </Fragment>
+    </CallList>
   );
 };
 
