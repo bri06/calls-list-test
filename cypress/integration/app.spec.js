@@ -3,11 +3,11 @@ describe('App', () => {
 
   beforeEach(() => {
     cy.server();
-    cy.visit('/');
     cy.route('GET', 'http://localhost:3003/calls', 'fixture:calls')
     .as('callsRequest');
     cy.route('GET', 'http://localhost:3003/merits', 'fixture:merits')
     .as('meritsRequest');
+    cy.visit('/');
     cy.wait('@callsRequest');
     cy.wait('@meritsRequest');
   });

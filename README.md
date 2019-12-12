@@ -6,11 +6,11 @@ npm install
 ```
 
 ```shell
-npm start
+npm run dev
 ```
 
 To run the tests, run:
 ```shell
-npm install
+npm run test
 ```
 

@@ -16,7 +16,9 @@
     "api": "json-server --watch db.json --port 3003",
     "dev": "run-p -r start api",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "run-p -r start cy:run",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
