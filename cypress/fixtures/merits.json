@@ -1,0 +1,58 @@
+[
+  {
+    "callId": 1,
+    "name": "Merito 1",
+    "score": 2,
+    "userScore": null,
+    "totalScore": null
+  },
+  {
+    "callId": 2,
+    "name": "Merito 2",
+    "score": 4,
+    "userScore": null,
+    "totalScore": null
+  },
+  {
+    "callId": 1,
+    "name": "Merito 3",
+    "score": 3,
+    "userScore": null,
+    "totalScore": null
+  },
+  {
+    "callId": 2,
+    "name": "Merito 4",
+    "score": 2,
+    "userScore": null,
+    "totalScore": null
+  },
+  {
+    "callId": 1,
+    "name": "Merito 1",
+    "score": 1,
+    "userScore": null,
+    "totalScore": null
+  },
+  {
+    "callId": 1,
+    "name": "Merito 2",
+    "score": 2,
+    "userScore": null,
+    "totalScore": null
+  },
+  {
+    "callId": 2,
+    "name": "Merito 3",
+    "score": 2,
+    "userScore": null,
+    "totalScore": null
+  },
+  {
+    "callId": 2,
+    "name": "Merito 4",
+    "score": 4,
+    "userScore": null,
+    "totalScore": null
+  }
+]

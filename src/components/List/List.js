@@ -14,10 +14,10 @@ const List = () => {
   }, []);
 
   return(
-    <CallList>
+    <CallList data-cy="calls">
       {
         calls && calls.map(({ id, name, descriptions }) => (
-          <Call key={id} id={id} title={name} description={descriptions} merits={merits}/>
+          <Call data-cy="call" key={id} id={id} title={name} description={descriptions} merits={merits}/>
         ))
       }
     </CallList>

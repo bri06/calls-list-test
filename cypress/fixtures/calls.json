@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Convocatoria 1",
+    "id": 1,
+    "descriptions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque, risus et dapibus ullamcorper, tellus dolor laoreet velit, eu laoreet tellus tortor non lacus."
+  },
+  {
+    "name": "Convocatoria 2",
+    "id": 2,
+    "descriptions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque, risus et dapibus ullamcorper, tellus dolor laoreet velit, eu laoreet tellus tortor non lacus."
+  }
+]

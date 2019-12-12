@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { MeritCard, MeritHeader, Score, Calculator, ScoreTitle } from './styles';
 import { Input } from '../../styles/commons';
 
-const Merit = ({ name, score }) => {
+const Merit = ({ id, name, score }) => {
 
   const [total, setTotal] = useState(0);
 
@@ -12,10 +12,10 @@ const Merit = ({ name, score }) => {
   };
 
   return (
-    <MeritCard>
+    <MeritCard data-cy={`merit-${id}`}>
       <MeritHeader>
         <h1>{name}</h1>
-        <span>{total ? total : 0} puntos</span>
+        <span data-cy={`total-score-${id}`}>{total} puntos</span>
       </MeritHeader>
       <Score>
         <ScoreTitle>TotalScore</ScoreTitle>
