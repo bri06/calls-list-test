@@ -14,7 +14,7 @@ const Call = ({ id, title, description, merits = [] }) => {
       <Merits>
         { merits && (
             merits.filter(({ callId }) => callId === id)
-            .map(({  name, score }, index) => (
+            .map(({ name, score }, index) => (
               <Merit key={index} name={name} score={score} />
         )))}
       </Merits>
