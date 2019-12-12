@@ -11,6 +11,7 @@ const Merit = ({ name, score }) => {
       </MeritHeader>
       <Score>
         <p>TotalScore</p>
+        <div><span> = </span></div>
         <div>
           <span>2</span> * <input type="text" placeholder="User score " />
         </div>

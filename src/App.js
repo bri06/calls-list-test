@@ -9,9 +9,7 @@ function App() {
   return (
     <Fragment>
       <Header>Listado de convocatorias</Header>
-      <div className="App">
-        <List />
-      </div>
+      <List />
     </Fragment>
   );
 }
